@@ -1,0 +1,8 @@
+---
+- hosts: all
+  
+  tasks:
+    - name: test connection
+      ping:
+    - name: run this command and ignore the re
+      shell: echo "this is to test the ansible by sample"
