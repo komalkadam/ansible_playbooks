@@ -1,0 +1,6 @@
+- hosts: all
+  tasks:
+  - name: Ansible create file if it doesn't exist example
+    win_file:
+     path: C:\Users\Administrator\Documents\firstWindowsConnection.txt
+     state: touch
